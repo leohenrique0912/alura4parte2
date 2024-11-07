@@ -1,0 +1,37 @@
+.contato {
+    background-color: var(--branco);
+    padding: 1em;
+}
+
+.contato__titulo,
+.contato__texto {
+    background: var(--laranja); /* Altere para uma cor que remeta à comida, como um tom de laranja ou amarelo */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.contato__titulo {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.contato__texto {
+    font-weight: 300;
+    margin: 1em 0;
+}
+
+.contato__email {
+    padding: 1em;
+    border: 1px solid var(--verde); /* Altere para uma cor que combine com a comida, como um verde fresco */
+    border-radius: 24px;
+    width: 90%;
+    color: var(--verde); /* Utilize uma cor que lembre frescor, como um verde claro */
+}
+
+.contato__email::placeholder {
+    font-family: var(--fonte-principal);
+    color: var(--verde);
+    background: url("../img/Email.svg") no-repeat 5%; /* Considere alterar o ícone para algo relacionado a comidas, como um ícone de chef */
+    padding-left: 2em;
+}
